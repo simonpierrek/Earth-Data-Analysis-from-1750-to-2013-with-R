@@ -1,0 +1,18 @@
+set terminal png
+set output "tempEvolution.png"
+
+set terminal x11 size 2000,800
+
+set title "EVOLUTION OF THE TEMPERATURE"
+set grid
+
+set xlabel "Date"
+set xtics rotate by -90
+
+set ylabel "Average Temperature"
+
+plot "data.dat" u 3:xticlabels(2) w lp lw 2 notitle
+
+pause 90
+
+
