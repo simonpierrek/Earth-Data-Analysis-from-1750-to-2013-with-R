@@ -8,3 +8,6 @@ The code is based on GloblaTemperatureByCity
 
 The description of the data can be seen here
 http://berkeleyearth.org/archive/data/
+
+it can be processed only in a linux terminal with the required packages of R and with Gnuplot.
+
